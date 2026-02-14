@@ -19,7 +19,7 @@ The layout adapts to different screen sizes using media queries, ensuring a cons
 
 ## 🔗 Live Demo
 Access the project here:  
-👉 *(GitHub Pages link)*
+👉 (https://ich1r0.github.io/responsive-landing-page/)
 
 ## 📌 Purpose
 This project was created for learning and portfolio purposes, demonstrating front-end fundamentals and responsive design techniques.

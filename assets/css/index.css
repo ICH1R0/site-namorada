@@ -362,54 +362,7 @@ body .full-width{
 }
 
 @media (max-width: 55rem) {
-    html, body {
-        overflow-x: hidden;
-    }
 
-    h1 {
-        font-size: 4rem;
-    }
-
-    h2 {
-        font-size: 3.2rem;
-    }
-
-    p {
-        font-size: 1.8rem;
-    }
-
-    .main-content {
-        padding: 6rem 2rem;
-    }
-
-    .intro-content {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
-    .intro-img {
-        align-items: center;
-    }
-
-    .intro-img img {
-        margin-left: 0;
-        max-width: 85%;
-    }
-    
-    .intro-img img{
-        margin-left: 0;
-        max-width: 80%;
-    }
-
-    .intro-img{
-        align-items: center;
-    }
-
-    .intro-content{
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-    
     .intro-content, .grid {
         grid-template-columns: 1fr;
     }
@@ -425,7 +378,7 @@ body .full-width{
     }
 
     .valor{
-    display: block;
+        display: block;
     }
 
     .menu{
@@ -438,7 +391,7 @@ body .full-width{
     }
 
     .menu-content{
-    height: 100vh;
+        height: 100vh;
     }
 
     .menu{
@@ -460,18 +413,71 @@ body .full-width{
         padding: 0.5rem;
         cursor: pointer;
     }
-    
+
     .close-menu:checked~.menu{
         display: block;
     }
+
     .close-menu:checked~.close-menu-label::after{
         content: "X";
     }
 
     .menu-spacing{
-    display: none;
+        display: none;
+    }
+}
+
+@media (max-width: 55rem) {
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
+    .intro-content {
+        min-height: auto;
+        padding-top: 6rem;
+        text-align: center;
+    }
 
+    .intro-img {
+        align-items: center;
+    }
+
+    .intro-img img {
+        margin-left: 0;
+        max-width: 75%;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.7rem;
+    }
+
+    .contact-form {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 1.6rem;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .form-group button {
+        width: 100%;
+        font-size: 2rem;
+    }
 }
+
+
 
